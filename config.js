@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Stas',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -25,27 +25,6 @@ const CONFIG = {
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
-
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
-
-	// Autochange
-	autoChangeTheme: true,
-
-	// Autochange by OS
-	changeThemeByOS: true,
-
-	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
-	hourDarkThemeActive: '18:30',
-	hourDarkThemeInactive: '07:00',
-
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
@@ -58,34 +37,34 @@ const CONFIG = {
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			id: '4',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'pocket',
+			icon: 'pocket',
+			link: 'https://www.pocket.com',
 		},
 		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			id: '2',
+			name: 'Twich',
+			icon: 'list-checks',
+			link: 'https://twich.tv',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'bitwarder',
+			icon: 'shield',
+			link: 'https://vault.bitwarden.com/#/vault',
 		},
 		{
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -112,7 +91,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://www.aliexpress.com/',
 		},
 		{
 			id: '5',
@@ -135,24 +114,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'banana',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/*nixporn',
+					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/rainmiter',
+					link: 'https://www.reddit.com/r/Rainmeter/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/wallpaper',
+					link: 'https://www.reddit.com/r/wallpaper/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/cats',
+					link: 'https://www.reddit.com/r/cats/',
 				},
 			],
 		},
@@ -161,20 +140,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Custom',
+					link: 'https://drive.google.com/file/d/1k1pexrSiGqqtqvvjhIgv52QiBiK4fnMp/view?usp=sharing',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'All Links',
+					link: 'https://drive.google.com/folderview?id=1QBKq6wkjoHHY5yxHEp2E-gGjJ1GeNJtB&usp=sharing',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Wallpaper',
+					link: 'https://drive.google.com/folderview?id=1D7BUl8HZSTFspG59H9691TWWGFxup_Pa&usp=sharing',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Othere',
+					link: 'https://drive.google.com/file/d/1Olb4NkY3sAfMu1Gqtw_U28-wiblKI7Um/view?usp=sharing',
 				},
 			],
 		},
