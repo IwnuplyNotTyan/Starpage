@@ -1,1 +1,1 @@
-https://iwnuplyntotyan.github.io/Starpage/
+https://iwnuplyntotyan.github.io/Startpage/
